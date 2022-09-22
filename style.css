@@ -36,7 +36,6 @@ button{
     box-shadow: -6px 2px rgb(10, 18, 24);
     padding: 20px 40px 20px 40px;
     border-radius: 10px;
-    margin-top: 30px;
 }
 
 img{
@@ -60,6 +59,7 @@ img{
     font-size: 18px;
     max-width: 400px;
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 
@@ -119,6 +119,25 @@ h3{
     margin-right: 10px;
     font-size: 24px;
     text-align: right;
+}
+
+.words h1{
+    color: white;
+    font-weight: 500px;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    width: 700px;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 100px 0 100px 0;
+    padding: 20px;
 }
 
 footer{
